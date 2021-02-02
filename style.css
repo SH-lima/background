@@ -17,7 +17,6 @@ h1 {
 }
 
 label,
-input,
 button {
   display: block;
 }
@@ -62,9 +61,12 @@ button {
 
 button[type="submit"] {
   margin-top: 2rem;
-  background: black;
+  background: rgb(0, 0, 0);
   color: white;
   border: none;
   padding: 0.75rem 1rem;
   font-weight: bold;
+}
+input{
+  display:inline-block;
 }
